@@ -33,4 +33,9 @@ Make the changes to the project and add unit tests testing your changes. Make su
 
 Create a pull request from your fork against the main branch of the repository and get it merged in.
 
+### Merging / Release
+
+A member of @Azure/aks-atlanta must approve the PR and merge it in. If the PR contains code changes, it must be released. Use the [helper GitHub actions](https://github.com/OliverMKing/javascript-release-workflow#usage) to do this. If the code is a breaking change, then use a new major version release number. If it's not, use the most recent major version as input. Changes should be well documented in the release.
+
+A breaking change means that the action behaves functionally differently than the previous version with the same exact input (other than bugfixes). This includes things like new required inputs.
 
