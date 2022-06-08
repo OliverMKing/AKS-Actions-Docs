@@ -25,7 +25,7 @@ You also must have [Node.js](https://nodejs.org/en/) and NPM installed.
 
 ### Contributions
 
-First, fork the repository you are making a contribution to. Then, clone the repository locally. After the repository is local, create a new branch for your changes.
+We welcome contributions from everyone. To get stated, fork the repository you are making a contribution to. Then, clone the repository locally. After the repository is local, create a new branch for your changes.
 
 Run `npm install` to install dependencies the project needs. 
 
