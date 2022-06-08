@@ -12,11 +12,25 @@
 - [azure/setup-kubectl](https://github.com/Azure/setup-kubectl)
 - [azure/aks-create-action](https://github.com/Azure/aks-create-action)
 
-## Learning Documentation
+## Contributing 
 
-Before working with our AKS GitHub actions you must know a few concepts. Visit the links below for documentation.
+### Prerequisites
+
+Before working with our contributing to our AKS GitHub actions you should know a few concepts. Visit the links below for documentation.
 
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 
+You also must have [Node.js](https://nodejs.org/en/) and NPM installed.
+
+### Contributions
+
+First, fork the repository you are making a contribution to. Then, clone the repository locally. After the repository is local, create a new branch for your changes.
+
+Run `npm install` to install dependencies the project needs. 
+
+Make the changes to the project and add unit tests testing your changes. Then commit and push your changes to your remote fork.
+
+Create a pull request from your fork against the main branch of the repository and get it merged in.
+
+
