@@ -29,7 +29,7 @@ We welcome contributions from everyone. To get stated, fork the repository you a
 
 Run `npm install` to install dependencies the project needs. 
 
-Make the changes to the project and add unit tests testing your changes. Make sure the unit tests work locally with `npm run test`. Then commit and push your changes to your remote fork.
+Make the changes to the project and add unit tests testing your changes. Check that the unit tests work locally with `npm run test`. Update examples in the `README.md` if changes impact how users interact with the action. Then commit and push your changes to your remote fork.
 
 Create a pull request from your fork against the main branch of the repository and get it merged in.
 
