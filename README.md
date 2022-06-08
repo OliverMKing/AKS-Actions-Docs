@@ -12,6 +12,12 @@
 - [azure/setup-kubectl](https://github.com/Azure/setup-kubectl)
 - [azure/aks-create-action](https://github.com/Azure/aks-create-action)
 
+## Using Actions
+
+For basic example of how our actions are used check out our azure-kubernetes-service [starter workflows](https://github.com/actions/starter-workflows/tree/main/deployments) ([basic](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service.yml), [helm](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-helm.yml), [kompose](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kompose.yml), [kustomize](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kustomize.yml)). 
+
+For more options, visit the README's for each action.
+
 ## Contributing 
 
 ### Prerequisites
@@ -40,3 +46,4 @@ Create a pull request from your fork against the main branch of the repository a
 A member of @Azure/aks-atlanta must approve the PR and merge it in. If the PR contains code changes, it must be released. Use the [helper GitHub actions](https://github.com/OliverMKing/javascript-release-workflow#usage) to do this. If the code is a breaking change, then use a new major version release number. If it's not, use the most recent major version as input. Changes should be well documented in the release.
 
 A breaking change means that the action behaves functionally differently than the previous version with the same exact input (other than bugfixes). This includes things like new required inputs.
+
