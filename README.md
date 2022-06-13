@@ -26,6 +26,7 @@ Before working with our contributing to our AKS GitHub actions you should know a
 
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [TypeScript](https://www.typescriptlang.org/)
+- [GitHub Actions Packages](https://github.com/actions/toolkit)
 
 You also must have [Node.js](https://nodejs.org/en/) and NPM installed.
 
