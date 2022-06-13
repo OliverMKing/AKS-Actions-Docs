@@ -37,7 +37,7 @@ Run `npm install` to install dependencies the project needs.
 
 Make the changes to the project and add unit tests testing your changes. Check that the unit tests work locally with `npm run test`. Update examples in the `README.md` if changes impact how users interact with the action. Then commit and push your changes to your remote fork.
 
-For large changes, actions should be tested fully by using the updated version in an actual GitHub Workflow.
+For large changes, actions should be tested fully by using the updated version in an actual GitHub Workflow. [This](https://github.com/OliverMKing/AKS-GitHub-Actions-Demo) is a good repository to fork and test off of.
 
 Create a pull request from your fork against the main branch of the repository and get it merged in.
 
