@@ -22,7 +22,7 @@ For more options, visit the README's for each action.
 
 ### Prerequisites
 
-Before working with our contributing to our AKS GitHub actions you should know a few concepts. Visit the links below for documentation.
+Before working with or contributing to our AKS GitHub actions you should know a few concepts. Visit the links below for documentation.
 
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -32,7 +32,7 @@ You also must have [Node.js](https://nodejs.org/en/) and NPM installed.
 
 ### Contributions
 
-We welcome contributions from everyone. To get stated, fork the repository you are making a contribution to. Then, clone the repository locally. After the repository is local, create a new branch for your changes.
+We welcome contributions from everyone. To get started, fork the repository you are making a contribution to. Then, clone the repository locally. After the repository is local, create a new branch for your changes.
 
 Run `npm install` to install dependencies the project needs. 
 
