@@ -50,3 +50,10 @@ If the PR contains code changes, it must be released. Use the [helper GitHub act
 
 A breaking change means that the action behaves functionally differently than the previous version with the same exact input (other than bugfixes). This includes things like new required inputs.
 
+## Common issues
+
+### Can't merge due to conflicting tags
+
+We remap our remote tags with our release workflows. Major version tags will always point to the latest version (ex: v2 will point to v2.0 then if a v2.1 is created it will be remapped to that).
+
+Run `git fetch --tags --force` to update local tags.
