@@ -10,6 +10,7 @@
 - [azure/k8s-lint](https://github.com/Azure/k8s-lint)
 - [azure/setup-helm](https://github.com/Azure/setup-helm)
 - [azure/setup-kubectl](https://github.com/Azure/setup-kubectl)
+- [azure/k8s-artifact-substitute](https://github.com/Azure/k8s-artifact-substitute)
 - [azure/aks-create-action](https://github.com/Azure/aks-create-action)
 
 ## Using Actions
