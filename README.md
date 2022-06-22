@@ -30,6 +30,10 @@ Before working with or contributing to our AKS GitHub actions you should know a 
 
 You also must have [Node.js](https://nodejs.org/en/) and NPM installed.
 
+#### Contributing Environment
+
+You can use any environment you'd like to make contributions but it might be easier to use our setup. We'd reccomend using [VS Code](https://code.visualstudio.com/) with the following extensions.
+
 ### Contributions
 
 We welcome contributions from everyone. To get started, fork the repository you are making a contribution to. Then, clone the repository locally. After the repository is local, create a new branch for your changes.
