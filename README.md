@@ -32,7 +32,7 @@ You also must have [Node.js](https://nodejs.org/en/) and NPM installed.
 
 #### Contributing Environment
 
-You can use any environment you'd like to make contributions but it might be easier to use our setup. We'd reccomend using [VS Code](https://code.visualstudio.com/) with the following extensions.
+You can use any environment to make contributions but it might be easier to use our setup. We reccomend using [VS Code](https://code.visualstudio.com/) with the following extensions.
 
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Formats your code. Format on save should be turned on.
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Linter
