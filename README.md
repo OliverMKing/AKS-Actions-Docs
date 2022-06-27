@@ -58,6 +58,8 @@ If the PR contains code changes, it must be released. Use the [helper GitHub act
 
 A breaking change means that the action behaves functionally differently than the previous version with the same exact input (other than bugfixes). This includes things like new required inputs.
 
+If a new major version for an action is created, our [starter workflows](https://github.com/Azure/k8s-deploy/issues/174#issuecomment-1167377782) must be updated appropriately.
+
 ## Common issues
 
 ### Can't merge due to conflicting tags
