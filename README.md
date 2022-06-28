@@ -67,3 +67,7 @@ If a new major version for an action is created, our [starter workflows](https:/
 We remap our remote tags with our release workflows. Major version tags will always point to the latest version (ex: v2 will point to v2.0 then if a v2.1 is created it will be remapped to that).
 
 Run `git fetch --tags --force` to update local tags.
+
+### PR tests didn't run
+
+Ocasionally our tests don't run on a PR. You attempt to trigger them by closing then reopenig a PR.
