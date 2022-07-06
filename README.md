@@ -15,9 +15,9 @@
 
 ## Using Actions
 
-For basic example of how our actions are used check out our azure-kubernetes-service [starter workflows](https://github.com/actions/starter-workflows/tree/main/deployments) ([basic](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service.yml), [helm](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-helm.yml), [kompose](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kompose.yml), [kustomize](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kustomize.yml)). 
+For basic examples of how our actions are used check out our azure-kubernetes-service [starter workflows](https://github.com/actions/starter-workflows/tree/main/deployments) ([basic](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service.yml), [helm](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-helm.yml), [kompose](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kompose.yml), [kustomize](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kustomize.yml)). Read through them first then check out our examples in this repo.
 
-For more options, visit the README's for each action.
+For more options, visit the README's for each action. There are lots of configuration options for each action to fit your needs.
 
 ## Contributing 
 
