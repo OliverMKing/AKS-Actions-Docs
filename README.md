@@ -1,6 +1,8 @@
-# AKS-Actions-Docs
+# Azure Kubernetes Service GitHub Action Docs
 
-## Owned Actions
+Our AKS GitHub actions allow CI/CD pipelines to be easily setup for Kubernetes clusters. Our actions are compatable with any K8S cluster (not limited to Azure or AKS).
+
+## Actions
 
 - [azure/aks-set-context](https://github.com/Azure/aks-set-context)
 - [azure/k8s-set-context](https://github.com/Azure/k8s-set-context)
@@ -19,7 +21,7 @@ For basic examples of how our actions are used check out our azure-kubernetes-se
 
 For more options, visit the README's for each action. There are lots of configuration options for each action to fit your needs.
 
-## Contributing 
+## Contributing
 
 ### Prerequisites
 
@@ -42,7 +44,7 @@ You can use any environment to make contributions but it might be easier to use 
 
 We welcome contributions from everyone. To get started, fork the repository you are making a contribution to. Then, clone the repository locally. After the repository is local, create a new branch for your changes.
 
-Run `npm install` to install dependencies the project needs. 
+Run `npm install` to install dependencies the project needs.
 
 Make the changes to the project and add unit tests testing your changes. Check that the unit tests work locally with `npm run test`. Update examples in the `README.md` if changes impact how users interact with the action. Then commit and push your changes to your remote fork.
 
