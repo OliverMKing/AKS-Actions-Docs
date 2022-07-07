@@ -19,8 +19,12 @@ Before doing anything with our actions you need to read through the [GitHub Acti
 - [azure/k8s-artifact-substitute](https://github.com/Azure/k8s-artifact-substitute)
 - [azure/aks-create-action](https://github.com/Azure/aks-create-action)
 
-## Using Actions
+## Usage
 
 Visit our [usage docs](./docs/USAGE.md) to learn how to use our actions.
 
 ## Contributing
+
+We welcome and appreciate development contributions from everyone.
+
+Refer to our [development docs](./docs/DEVELOPMENT.md) for how to contribute code or documentation changes.

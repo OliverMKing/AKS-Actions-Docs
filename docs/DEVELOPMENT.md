@@ -4,7 +4,7 @@ We welcome development contributions from everyone.
 
 ## Prerequisites
 
-Before developing our AKS GitHub actions you should know a few concepts.
+Before developing our AKS GitHub actions you need to know a few concepts.
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [GitHub Actions Packages](https://github.com/actions/toolkit)
