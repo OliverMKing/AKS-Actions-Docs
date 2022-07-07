@@ -1,6 +1,6 @@
 # Azure Kubernetes Service GitHub Action Docs
 
-Our AKS GitHub actions allow CI/CD pipelines to be easily setup for Kubernetes clusters. Our actions are compatable with any K8S cluster (not limited to Azure or AKS).
+Our AKS GitHub actions allow CI/CD pipelines to be easily setup for Kubernetes clusters. The Actions are compatable with any K8S cluster (not limited to Azure or AKS).
 
 ## Actions
 
