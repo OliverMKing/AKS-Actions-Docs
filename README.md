@@ -17,9 +17,7 @@ Our AKS GitHub actions allow CI/CD pipelines to be easily setup for Kubernetes c
 
 ## Using Actions
 
-For basic examples of how our actions are used check out our azure-kubernetes-service [starter workflows](https://github.com/actions/starter-workflows/tree/main/deployments) ([basic](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service.yml), [helm](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-helm.yml), [kompose](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kompose.yml), [kustomize](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kustomize.yml)). Read through them first then check out our examples in this repo.
-
-For more options, visit the README's for each action. There are lots of configuration options for each action to fit your needs.
+Visit our [usage docs](./docs/USAGE.md) to learn how to use our actions.
 
 ## Contributing
 
@@ -72,4 +70,4 @@ Run `git fetch --tags --force` to update local tags.
 
 ### PR tests didn't run
 
-Ocasionally our tests don't run on a PR. You attempt to trigger them by closing then reopenig a PR.
+Ocasionally our tests don't run on a PR. You attempt to trigger them by closing then reopening a PR.
