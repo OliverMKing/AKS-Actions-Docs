@@ -2,8 +2,6 @@
 
 This page contains strong examples for how to use our actions. Our actions all have configuration options that can't be completely document here. You should view each action's repository for complete action-specific documentation. There's a complete list of our actions [here](../README.md#actions).
 
-Most of our actions work for generic Kubernetes clusters and aren't tied to a specific cloud-provider or Azure.
-
 ## Referencing an Action
 
 When using our actions you will reference them by either a tag or sha.
@@ -14,7 +12,9 @@ Alternatively, you can use our tags. For the newer versions we provide a major a
 
 You should use [Dependabot to subscribe to new releases](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot) since we are constantly improving our actions.
 
-## Starter Templates
+## Examples
+
+### Starter Templates
 
 The starter workflows provide the simplest examples. You can easily adopt them with these [steps](https://docs.github.com/en/actions/using-workflows/using-starter-workflows#using-starter-workflows).
 
