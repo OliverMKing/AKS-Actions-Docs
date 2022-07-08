@@ -37,4 +37,4 @@ Our starter templates examples. Create image pull secrets to pull down images. Y
 
 We can use [environments](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment) to handle the [multi option](https://docs.github.com/en/actions/managing-workflow-runs/reviewing-deployments) nature of blue-green and canary deployments. A required approval will be prompted to make a decision when it reaches that stage.
 
-[example](https://github.com/Azure-Samples/aks-bluegreen-canary)
+[example](../examples/promotereject.yaml)
