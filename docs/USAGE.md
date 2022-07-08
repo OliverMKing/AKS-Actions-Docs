@@ -1,6 +1,8 @@
 # Usage
 
-This page contains strong examples for how to use our actions. Our actions all have configuration options that can't be completely document here. You should view each action's repository for complete action-specific documentation. There's a complete list of our actions [here](../README.md#actions).
+This page contains strong examples for how to use our actions but is not supposed to be a comprehensive list of possibilities. Our actions all have configuration options that can't be completely document here. You should view each action's repository for complete action-specific documentation. There's a complete list of our actions [here](../README.md#actions).
+
+Use these examples to learn and modify the techniques to fit your needs.
 
 ## Referencing an Action
 
@@ -25,10 +27,14 @@ The starter workflows provide the simplest examples. You can easily adopt them w
 - [Azure Kubernetes Service Kustomize](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kustomize.yml)
 - [Azure Kubernetes Service Kompose](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kompose.yml)
 
-### Blue-Green
+### No Image Pull Secret
 
-We use [environments](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment) to handle the multistage nature of blue-green deployments.
+Our starter templates examples. Create image pull secrets to pull down images. You don't need to do this if your container registry is [attached](https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration) to the cluster (or public).
+
+[example](../examples/noimagepull.yaml)
+
+### Promote / Reject
+
+We can use [environments](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment) to handle the [multi option](https://docs.github.com/en/actions/managing-workflow-runs/reviewing-deployments) nature of blue-green and canary deployments. A required approval will be prompted to make a decision when it reaches that stage.
 
 [example](https://github.com/Azure-Samples/aks-bluegreen-canary)
-
-### Canary
