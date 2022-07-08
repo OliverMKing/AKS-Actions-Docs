@@ -25,6 +25,6 @@ Visit our [usage docs](./docs/USAGE.md) to learn how to use our actions.
 
 ## Contributing
 
-We welcome and appreciate development contributions from everyone.
+Creating issues on the relevant action repo is extremely helpful. Please include as much information as possible including steps to reproduce and [debug logs](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging).
 
-Refer to our [development docs](./docs/DEVELOPMENT.md) for how to contribute code or documentation changes.
+We welcome and appreciate development contributions from everyone. Refer to our [development docs](./docs/DEVELOPMENT.md) for how to contribute code or documentation changes.

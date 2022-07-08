@@ -14,6 +14,8 @@ You should use [Dependabot to subscribe to new releases](https://docs.github.com
 
 ## Examples
 
+The below examples all involve deploying to an AKS cluster. You can also use our workflows for integration tests, other k8s clusters, and logging.
+
 ### Starter Templates
 
 The starter workflows provide the simplest examples. You can easily adopt them with these [steps](https://docs.github.com/en/actions/using-workflows/using-starter-workflows#using-starter-workflows).
@@ -22,3 +24,11 @@ The starter workflows provide the simplest examples. You can easily adopt them w
 - [Azure Kubernetes Service Helm](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-helm.yml)
 - [Azure Kubernetes Service Kustomize](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kustomize.yml)
 - [Azure Kubernetes Service Kompose](https://github.com/actions/starter-workflows/blob/main/deployments/azure-kubernetes-service-kompose.yml)
+
+### Blue-Green
+
+We use [environments](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment) to handle the multistage nature of blue-green deployments.
+
+[example](https://github.com/Azure-Samples/aks-bluegreen-canary)
+
+### Canary
