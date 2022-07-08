@@ -84,6 +84,7 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     needs: [shouldPromote]
+    if: ${{ always() && contains(join(needs.*.result, ','), 'success') }}
     steps:
       # Checks out the repository this file is in
       - uses: actions/checkout@v3
