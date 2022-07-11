@@ -47,3 +47,9 @@ Once the workflow gets to the `shouldPromote` job it prompts required approvers 
 Only the selected job is performed (promote in this case). Notice that the `reject` job is not run.
 
 ### Multi-region
+
+You can deployment to numerous environments and regions within the same workflow with our actions. This particular example uses the same ACR for the image. You should investigate [geo-replication](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-geo-replication) if your clusters are in differing regions.
+
+[example workflow](../examples/multiregion.yaml)
+
+You can slightly modify this example to deploy to some regions before others (rolling deployment).
