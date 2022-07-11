@@ -52,4 +52,6 @@ You can deployment to numerous environments and regions within the same workflow
 
 [example workflow](../examples/multiregion.yaml)
 
+![multiregion deploy](../examples/multiregion1.png)
+
 You can slightly modify this example to deploy to some regions before others (rolling deployment).
