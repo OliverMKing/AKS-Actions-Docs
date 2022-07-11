@@ -29,7 +29,7 @@ The starter workflows provide the simplest examples. You can easily adopt them w
 
 ### No Image Pull Secret
 
-Our starter templates examples. Create image pull secrets to pull down images. You don't need to do this if your container registry is [attached](https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration) to the cluster (or public).
+Our starter templates examples create image pull secrets to pull down images. You don't need to do this if your container registry is [attached](https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration) to the cluster (or public).
 
 [example](../examples/noimagepull.yaml)
 
