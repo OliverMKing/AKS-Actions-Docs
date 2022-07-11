@@ -73,7 +73,7 @@ jobs:
   shouldPromote:
     runs-on: ubuntu-latest
     needs: deploy
-    environment: promote
+    environment: promote # add a required approval to this environment https://docs.github.com/en/actions/managing-workflow-runs/reviewing-deployments
     steps:
       - run: echo requested approval (approve to promote, deny to reject)
 
