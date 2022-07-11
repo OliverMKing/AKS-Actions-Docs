@@ -40,5 +40,10 @@ We can use [environments](https://docs.github.com/en/actions/deployment/targetin
 [example workflow](../examples/promotereject.yaml)
 
 ![request approval](../examples/promotereject1.png)
+Once the workflow gets to the `shouldPromote` job it prompts required approvers to choose to promote or reject the workflow. Approving the deployment leads to `promote` and rejecting leads to `reject`.
 
-![promtoe scenario](../examples/promotereject2.png)
+![promote scenario](../examples/promotereject2.png)
+
+Only the selected job is performed (promote in this case). Notice that the `reject` job is not run.
+
+### Multi-region
