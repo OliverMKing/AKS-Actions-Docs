@@ -18,6 +18,7 @@ Before doing anything with our actions you need to read through the [GitHub Acti
 - [azure/setup-kubectl](https://github.com/Azure/setup-kubectl)
 - [azure/k8s-artifact-substitute](https://github.com/Azure/k8s-artifact-substitute)
 - [azure/aks-create-action](https://github.com/Azure/aks-create-action)
+- [azure/aks-github-runner](https://github.com/Azure/aks-github-runner)
 
 ## Usage
 
